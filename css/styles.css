@@ -141,6 +141,8 @@ p {
   background-color: var(--Primary-Brand);
   cursor: pointer;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -170,7 +172,12 @@ p {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+.main-banner-content {
+  display: flex;
+}
 .main-banner-title {
+  justify-content: center;
+  margin-bottom: 48px;
   font-size: 56px;
   font-weight: 700;
   text-align: center;
