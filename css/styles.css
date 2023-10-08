@@ -173,10 +173,11 @@ p {
   padding-bottom: 188px;
 }
 .main-banner-content {
-  display: flex;
+  display: block;
 }
 .main-banner-title {
-  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 48px;
   font-size: 56px;
   font-weight: 700;
