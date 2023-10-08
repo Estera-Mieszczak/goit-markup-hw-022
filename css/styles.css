@@ -61,8 +61,6 @@ p {
   display: flex;
   gap: 40px;
   margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .main-menu:first-child {
   margin-left: 0px;
@@ -76,6 +74,8 @@ p {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .main-menu-link:hover {
   color: var(--Pressed-state);
@@ -169,15 +169,10 @@ p {
   letter-spacing: 1.12px;
   color: var(--White-background);
 }
-.hidden-title {
-  font-size: 36px;
-  font-weight: 700;
-  text-align: center;
-  color: var(--Dark);
-  line-height: 1.11;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-  display: none;
+.visually-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
 }
 .text-head {
   color: var(--Dark);
