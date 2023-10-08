@@ -76,6 +76,8 @@ p {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 .main-menu-link:hover {
   color: var(--Pressed-state);
@@ -264,6 +266,9 @@ p {
 .header-menu {
   display: flex;
   align-items: center;
+}
+.header-menu-contact-box {
+  display: flex;
 }
 .header {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
