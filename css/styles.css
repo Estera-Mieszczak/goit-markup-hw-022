@@ -269,10 +269,7 @@ p {
   border-radius: 0px 0px 4px 4px;
 }
 .teammate-name {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 32px o;
 }
 .container {
   max-width: 1158px;
